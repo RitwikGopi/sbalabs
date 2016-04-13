@@ -22,7 +22,7 @@ while True:
 	g = g[-20:]
 	b = b[-20:]
 	dat, addr = s.recvfrom(1024)
-	#print ord(dat[0]), ord(dat[1]), ord(dat[2])
+	print ord(dat[0]), ord(dat[1]), ord(dat[2])
 	r.append(ord(dat[0]))
 	g.append(ord(dat[1]))
 	b.append(ord(dat[2]))
